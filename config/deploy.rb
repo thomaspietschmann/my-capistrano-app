@@ -9,7 +9,7 @@ set :rbenv_map_bins, %w{rake gem bundle ruby rails}
 
 set :passenger_restart_with_touch, false
 
-set :application, "sample_rails_app"
+set :application, "my_fucking_app"
 set :repo_url, "https://github.com/thomaspietschmann/my-fucking-app.git"
 set :branch, "main"
 set :deploy_to, "/home/rails/#{fetch :application}"

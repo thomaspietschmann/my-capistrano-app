@@ -131,6 +131,9 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.12.5-x86_64-linux)
       racc (~> 1.4)
+    passenger (6.0.12)
+      rack
+      rake (>= 0.8.1)
     public_suffix (4.0.6)
     puma (5.5.2)
       nio4r (~> 2.0)
@@ -224,6 +227,7 @@ DEPENDENCIES
   debug
   importmap-rails
   jbuilder
+  passenger
   puma (~> 5.0)
   rails (~> 7.0.0)
   redis (~> 4.0)
